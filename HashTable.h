@@ -1,3 +1,10 @@
+// =================================================================
+//
+// File: HashTable.h
+// Author:
+// Date:
+//
+// =================================================================
 #include <vector>
 #include <iostream>
 #include "LinkedList.h"
@@ -56,7 +63,7 @@ void HashTable<KeyType, ValueType>::erase(KeyType key)
 *
 * @param key, key assocaited to a certain value.
 */
-templa template <class KeyType, class ValueType>
+template <class KeyType, class ValueType>
 ValueType HashTable<KeyType, ValueType>::get(KeyType key)
 {
 }
