@@ -3,6 +3,9 @@
 #include "LinkedList.h"
 using namespace std;
 
+/*
+* Definition of the HashTable class
+*/
 template <class KeyType, class ValueType>
 class HashTable
 {
@@ -20,6 +23,11 @@ public:
 	string toString();
 };
 
+/*
+* Constructor. Initializes the HashTable.
+*
+* @param max, size of the table.
+*/
 template <class KeyType, class ValueType>
 HashTable<KeyType, ValueType>::HashTable(int max)
 {
@@ -33,21 +41,39 @@ void HashTable<KeyType, ValueType>::insert(KeyType key, ValueType value)
 {
 }
 
+/*
+* Erases the element with the given key value from the HashTable.
+*
+* @param key, key to be erased.
+*/
 template <class KeyType, class ValueType>
 void HashTable<KeyType, ValueType>::erase(KeyType key)
 {
 }
 
-template <class KeyType, class ValueType>
+/*
+* Returns the value associated to a certain key.
+*
+* @param key, key assocaited to a certain value.
+*/
+templa template <class KeyType, class ValueType>
 ValueType HashTable<KeyType, ValueType>::get(KeyType key)
 {
 }
 
+/*
+* Returns the number of elements in the HashTable.
+*
+*/
 template <class KeyType, class ValueType>
 int HashTable<KeyType, ValueType>::getSize()
 {
 }
 
+/*
+* Returns the string representation of the HashTable.
+*
+*/
 template <class KeyType, class ValueType>
 string HashTable<KeyType, ValueType>::toString()
 {
