@@ -52,6 +52,8 @@ void HashTable<KeyType, ValueType>::insert(KeyType key, ValueType value)
 * Erases the element with the given key value from the HashTable.
 *
 * @param key, key to be erased.
+*
+* O()
 */
 template <class KeyType, class ValueType>
 void HashTable<KeyType, ValueType>::erase(KeyType key)
@@ -62,6 +64,8 @@ void HashTable<KeyType, ValueType>::erase(KeyType key)
 * Returns the value associated to a certain key.
 *
 * @param key, key assocaited to a certain value.
+*
+* O()
 */
 template <class KeyType, class ValueType>
 ValueType HashTable<KeyType, ValueType>::get(KeyType key)
@@ -71,6 +75,7 @@ ValueType HashTable<KeyType, ValueType>::get(KeyType key)
 /*
 * Returns the number of elements in the HashTable.
 *
+* O()
 */
 template <class KeyType, class ValueType>
 int HashTable<KeyType, ValueType>::getSize()
